@@ -1,0 +1,25 @@
+PROJETO 65 KG — APP PWA
+
+O que inclui
+- Painel de peso e meta
+- Registro de alimentação e treinos
+- Lista de compras e orçamento
+- Backup e restauração dos dados
+- Lembretes enquanto o app/página estiver ativo
+- Estrutura PWA para instalação e uso offline
+
+COMO INSTALAR NO IPHONE
+1. Publique os arquivos deste pacote em um endereço HTTPS (por exemplo, GitHub Pages). O PWA não pode ser instalado corretamente abrindo o HTML diretamente do ZIP.
+2. Abra o endereço publicado no Safari do iPhone.
+3. Toque em Compartilhar > Adicionar à Tela de Início.
+4. Abra o ícone Projeto 65 kg na tela inicial.
+5. Dentro do app, vá em Ajustes, configure os horários, ative os lembretes e toque em Testar notificação. Autorize as notificações se o iOS pedir.
+
+LIMITAÇÃO IMPORTANTE DAS NOTIFICAÇÕES
+Esta versão pode mostrar notificações de teste e lembretes enquanto o app estiver aberto. Ela NÃO tem servidor de notificações push e não garante lembretes em horários programados quando o app estiver fechado. Para push confiável em segundo plano, seria necessário configurar um serviço push/backend e hospedar a aplicação em HTTPS. No iPhone, notificações web push requerem iOS/iPadOS 16.4 ou posterior e o site adicionado à Tela de Início.
+
+DADOS E PRIVACIDADE
+Os registros ficam no armazenamento local do navegador/aplicativo. Use a opção Exportar backup em Ajustes para guardar uma cópia. Limpar os dados do navegador pode apagar seus registros.
+
+SAÚDE
+O plano é uma ferramenta de acompanhamento, não substitui nutricionista ou avaliação clínica. Com 60 kg e altura acima de 1,80 m, considere conversar com uma UBS/nutricionista para uma meta segura.
